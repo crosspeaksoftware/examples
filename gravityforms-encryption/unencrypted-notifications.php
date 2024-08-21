@@ -46,4 +46,3 @@ function only_certain_notification_id( $notification ) {
 	return $notification;
 }
 add_filter( 'gform_notification', 'only_certain_notification_id', 10, 1 );
-
