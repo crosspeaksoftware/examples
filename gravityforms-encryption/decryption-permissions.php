@@ -21,4 +21,4 @@ function custom_encryption_can_decrypt_field_value( $can_decrypt, $field ) {
 	}
 	return false;
 }
-add_action( 'gf_encryption_can_decrypt_field_value', 'custom_encryption_can_decrypt_field_value', 10, 2 );
+add_filter( 'gf_encryption_can_decrypt_field_value', 'custom_encryption_can_decrypt_field_value', 10, 2 );
